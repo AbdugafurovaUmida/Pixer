@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('icon.css');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Open sans','Times New Roman', Times, serif;
+}
+h1{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    color: #000000;
+    margin: 17px 0px 16px;
+}
+/* ================
+   Layout styles
+================= */
+.container{
+    max-width: 1200px ;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    margin: 0 -15px;
+}
+.column-2{
+    width: 50%;
+    padding: 0 15px;
+}
+.column-3{
+    width: 33.3%;
+    padding: 0 15px;
+}
+.column-60{
+    width: 60%;
+    padding: 0 15px;
+}
+.column-66{
+    width: 66.6%;
+}
+.column-40{
+    width: 40%;
+    padding: 0 15px;
+}
+.column-17{
+    width: 17%;
+    padding: 0 15px;
+}
+/* ================
+   Header styles
+================== */
+.header{
+    padding: 18px 0px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #FFFFFF;
+}
+.header .row{
+    display: flex;
+    align-items: center;
+    margin: 0  ;
+}
+.header .column-3{
+    width: 33.3%;
+    padding: 0 ;
+}
+.nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.about{
+    margin-left: 32px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 15px;
+    color: #000000;
+}
+.phone-number{
+    margin-left: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    background: #00BAFC;
+    border-radius: 5px;
+}
+/* ================
+   Intro styles
+================== */
+.intro{
+    margin-top: 100px;
+    padding: 80px 0px 80px;
+}
+.intro-video{
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+}
+.intro-paragraf{
+    padding: 0px 2.5px 0px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.intro-services{
+    padding: 8px 16px;
+    background: #00BAFC;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* ================
+   Services styles
+================== */
+#services{
+    padding: 56px 0px;
+}
+#services .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.services-title{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.services-paragraf{
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+}
+.community{
+    padding: 24px 0px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    margin: 24px 35px;
+}
+.community-title{
+    margin: 16px 16px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+}
+.community-paragraf{
+    font-weight: normal;
+    font-size: 16px;  
+    text-align: center;
+    color: #000000;
+}
+.order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order-item{
+    margin: 16px 8px 16px 0px;
+    padding: 8px 16px;
+    background: #00BAFC;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+.services-item{
+    margin-left: 8px;
+    text-decoration-line: underline;
+    color: #00BAFC;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* ================
+   Work styles
+================== */
+.work{
+    padding: 56px 0px;
+}
+.work .container{
+    max-width: 832px;
+}
+.work-title{
+    margin: 0 16px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+}
+.work-paragraf{
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.determination-title{
+    margin: 98px 0px 8px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+}
+.determination-paragraf{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.image-solution{
+    display: flex;
+    justify-content: flex-end;
+}
+.article-item-one{
+    margin-bottom: 55px;
+}
+.article-item-two{
+    margin-bottom: 53px;
+}
+.article-item-three{
+    margin-bottom: 56px;
+}
+.article-item-four{
+    margin-bottom: 50px;
+}
+.article-item-five{
+    margin-bottom: 49px;
+}
+.accept{
+    display: inline-block;
+    background: #00BAFC;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;  
+    text-decoration: none;
+}
+/* ====================
+   Section for Order
+===================== */
+#take-order{
+    padding: 56px 0px 64px;
+    background-color: #00BAFC;
+}
+.form{
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    width: 348px;
+    padding: 24px;
+    text-align: center;
+    border-radius: 5px;
+}
+.take-order-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;    
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.take-order-paragraf{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.selection{
+    margin-bottom: 16px;
+    padding-left: 16px;
+    width: 300px;
+    height: 56px;
+    background: #F3F3F3;
+    border-radius: 5px;
+    border: none;
+}
+/* .active{
+    padding-right: 20px;
+} */
+
+.btn{
+    padding: 8px 16px;
+    background: #00BAFC;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;    
+    color: #FFFFFF;
+    border: none;
+}
+/* =================
+   Main-footer
+================== */
+.main-footer{
+    background-color: #191919;
+    padding: 56px 0px;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.footer-paragraf{
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   color: #FFFFFF;
+}
+.linkes{
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+.linkes:active{
+    text-decoration: #00BAFC ;
+}
+/* .linkes:hover{
+   
+} */
+
+.app{
+   list-style: none;
+   padding: 0;
+   
+}
+.main-footer .column-17{
+    margin-left: 87px;
+}
+.main-footer span{
+    font-size: 22px;
+    color: #FFFFFF;
+    vertical-align: middle;
+    margin: 0px 8px 8px 0px ;
+}
